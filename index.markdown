@@ -1,0 +1,26 @@
+---
+layout: home
+title:  "Jurassic Wake & Ski"
+subtitle: "Wakeboard the Jurrassic Coast"
+seotitle: Jurassic Wake & Ski
+date:  2017-03-11
+category: post main website subpage
+category-type: Website
+# img: ice-cream.jpg
+video: wake.mp4
+author: matthew_lean
+description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nobis, eos eveniet atque sapiente cupiditate impedit soluta, beatae iure excepturi reprehenderit facere, architecto maxime necessitatibus ab. Accusantium quam error illum? 
+# Extras.
+color-1: 333333
+color-2: 036aed
+comments: true
+published: true
+permalink: /
+---
+
+## Lorem ipsum
+
+<h3 style="color: #cdd1d4;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+
+Lorem ipsum dolor sit [link to Google!](http://google.com) amet consectetur, adipisicing elit. Obcaecati nobis, eos eveniet atque sapiente cupiditate impedit soluta, beatae iure excepturi reprehenderit facere, architecto maxime necessitatibus ab. Accusantium quam error illum?
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  <div class="page-wrapper">
+
+    {% include header-main.html %}
+
+    <div class="splash-80" id="hero-header"
+      style="background-image: url({{site.baseurl}}/assets/images/banners/{{page.img}}); background-size: cover;position: relative;">
+
+      <div class="splash-video-wrapper">
+        {% if page.color-1 %}
+        <div
+          style="background-image: linear-gradient(to bottom right, #{{ page.color-1 | escape }}, #{{ page.color-2 | escape }});"
+          class="project-image-gradient"></div>
+        {% else %}
+        <div style="background-image: linear-gradient(270deg,#00d0ff,#036aed);" class="project-image-gradient"></div>
+        {% endif %}
+
+        {% if page.video %}
+        <video class="splash-video" playsinline="" autoplay="" muted="" loop=""
+          poster="{{site.baseurl}}/assets/images/banners/{{page.img}}" id="bgvid">
+          <source class="splash-video" src="{{site.baseurl}}/assets/video/{{page.video}}" type="video/mp4">
+        </video>
+        {% endif %}
+
+      </div>
+
+
+      <div class="splash-overlay container">
+        <div class="header-content-container">
+          <div class="splash-headline text-center">
+            <h1 class="page-title text-white">{{ page.title }}</h1>
+            <h2 class="project-subtitle">{{ page.subtitle }}</h2>
+            <p class="description text-white mt-2">{{ page.description | escape }}</p>
+
+            <!--
+            <p class="date">{{ page.date | date_to_long_string }}</p>
+            <div class="badge mt-2">
+              <span style="background-color: #{{page.color-1}};">{{ page.category-type }}</span>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="post container mt-5 mb-5">
+      {{ content }}
+    </div>
+
+  <!-- {% include recent-posts.html %} -->
+
+  {% include footer.html %}
+
+</body>
+
+</html>

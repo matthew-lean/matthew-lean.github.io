@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+$font-primary: "Lexend Deca",
+-apple-system,
+Roboto,
+Helvetica,
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol";
+$monospace: 'Ubuntu Mono',
+monospace,
+sans-serif;
+
+// Font-sizes
+$font-size-large: 48px;
+$font-size-medium: 22px;
+$font-size-small: 0.95rem;
+$font-size-tiny: 14px;
+
+// Font weights
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+p {
+    color: #737f8d;
+    font-family: $font-primary;
+    letter-spacing: .01em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0 auto
+}
+
+h1 {
+    font-family: $font-primary;
+    font-size: 3.5rem !important;
+    line-height: 1.15;
+    font-weight: 600;
+    color: #333333;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: $font-primary;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0 auto;
+    color: #333333;
+}
+
+h3 {
+    font-family: $font-primary;
+    font-size: 1.2rem;
+    line-height: 1.15;
+    font-weight: 600;
+    color: #333333;
+    margin: 0 auto;
+}
+
+h4 {
+    font-family: $font-primary;
+    font-size: 1rem;
+    line-height: 1.15;
+    font-weight: 600;
+    color: #036aed;
+    margin: 0 auto;
+}
+
+a {
+    color: $blue;
+    text-decoration: none!important ;
+}
+
+p a:link,
+p a:visited {
+    border-bottom: 2px solid #0f6aea;
+    transition: 0.3s ease;
+}
+
+p a:link:hover,
+p a:visited:hover {
+    border-bottom: 2px solid #000;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.btn {
+    padding: .75rem 2rem!important;
+}
+
+* {
+    font-family: "Lexend Deca", -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 3px 6px;
+    background-color: #0f6aea;
+    text-transform: uppercase;
+    font-family: "Lexend Deca", -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}

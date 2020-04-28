@@ -1,0 +1,33 @@
+// Colours
+
+$white: #fff;
+$light-grey: #eceef1; // background grey
+$light-light-grey-blue: #f8faff;
+$light-grey-blue: #eef2f9;
+$dark-grey: #333333; // default font colour
+$primary: #2279dc;
+$primary-lighter: #90bdff;
+$primary-lighter-lighter: #deebfe;
+$primary-dark-shade: #005ec8;
+$primary-darker-shade: darken($primary-dark-shade, 10%); // Categories
+$green: #5cc112;
+$green-lighter: #d6efc4;
+$yellow: #FFCC00;
+$yellow-lighter: #f7ecbf;
+$yellow-darnker: #ffc800;
+$red: #ff5e5e;
+$red-lighter: #ffd7d7;
+$blue: #0f6aea;
+$blue-lighter: #4d95fb;
+$pink: #ff6cf3;
+$pink-lighter: #ffdafc;
+$grey: #333333;
+$grey-lighter: #cccccc;
+
+.btn-clear{
+    color: #ffffff!important;
+    background-color: rgba(255, 255, 255, 0.30)!important;
+}
+.btn-clear:hover{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
