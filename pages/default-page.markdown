@@ -1,8 +1,7 @@
 ---
-title: Jurassic Wake & Ski
+title: About Us
 date: 2020-02-23 00:00:00 Z
 permalink: "/about-us/"
-layout: default-page
 subtitle: About Us
 category: jekyll post
 category-type: test
@@ -14,6 +13,7 @@ description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat t
 color-1: 333
 color-2: a4b6ff
 comments: true
+layout: default-page
 ---
 
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempora sint magnam! Ex, tempore! Soluta voluptas obcaecati id praesentium, amet excepturi repellendus enim qui voluptatum minus nihil adipisci aliquid corrupti.
