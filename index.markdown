@@ -3,7 +3,6 @@ title: Jurassic Wake & Ski
 date: 2017-03-11 00:00:00 Z
 permalink: "/"
 position: 0
-layout: home
 subtitle: Wakeboard the Jurrassic Coast
 seotitle: Jurassic Wake & Ski
 category: post main website subpage
@@ -15,7 +14,8 @@ description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
   facere, architecto maxime necessitatibus ab. Accusantium quam error illum?
 color-1: 333333
 color-2: 036aed
-comments: true
+comments: false
+layout: home
 ---
 
 ## Lorem ipsum
