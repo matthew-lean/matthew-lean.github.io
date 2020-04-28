@@ -2,6 +2,7 @@
 title: Jurassic Wake & Ski
 date: 2017-03-11 00:00:00 Z
 permalink: "/"
+position: 0
 layout: home
 subtitle: Wakeboard the Jurrassic Coast
 seotitle: Jurassic Wake & Ski
