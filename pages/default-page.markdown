@@ -16,12 +16,8 @@ comments: true
 layout: default-page
 ---
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempora sint magnam! Ex, tempore! Soluta voluptas obcaecati id praesentium, amet excepturi repellendus enim qui voluptatum minus nihil adipisci aliquid corrupti.
-
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempora sint magnam! Ex, tempore! Soluta voluptas obcaecati id praesentium, amet excepturi repellendus enim qui voluptatum minus nihil adipisci aliquid corrupti.
+About us text starts here... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempora sint magnam! Ex, tempore! Soluta voluptas obcaecati id praesentium, amet excepturi repellendus enim qui voluptatum minus nihil adipisci aliquid corrupti.
 
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempora sint magnam! Ex, tempore! Soluta voluptas obcaecati id praesentium, amet excepturi repellendus enim qui voluptatum minus nihil adipisci aliquid corrupti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempora sint magnam! Ex, tempore! Soluta voluptas obcaecati id praesentium, amet excepturi repellendus enim qui voluptatum minus nihil adipisci aliquid corrupti.
 
 <div href="#" data-featherlight="https://via.placeholder.com/1920x1080" class="img"><img alt="" src="https://via.placeholder.com/1920x1080"></div>
-
-
