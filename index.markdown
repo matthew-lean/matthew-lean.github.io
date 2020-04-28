@@ -1,21 +1,21 @@
 ---
-layout: home
-title:  "Jurassic Wake & Ski"
-subtitle: "Wakeboard the Jurrassic Coast"
+title: Jurassic Wake & Ski
+date: 2017-03-11 00:00:00 Z
+permalink: "/"
+position: 0
+subtitle: Wakeboard the Jurrassic Coast
 seotitle: Jurassic Wake & Ski
-date:  2017-03-11
 category: post main website subpage
 category-type: Website
-# img: ice-cream.jpg
 video: wake.mp4
 author: matthew_lean
-description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nobis, eos eveniet atque sapiente cupiditate impedit soluta, beatae iure excepturi reprehenderit facere, architecto maxime necessitatibus ab. Accusantium quam error illum? 
-# Extras.
+description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nobis,
+  eos eveniet atque sapiente cupiditate impedit soluta, beatae iure excepturi reprehenderit
+  facere, architecto maxime necessitatibus ab. Accusantium quam error illum?
 color-1: 333333
 color-2: 036aed
-comments: true
-published: true
-permalink: /
+comments: false
+layout: home
 ---
 
 ## Lorem ipsum
