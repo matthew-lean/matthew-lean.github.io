@@ -3,7 +3,7 @@ title: About Us
 date: 2020-02-23 00:00:00 Z
 permalink: "/about-us/"
 position: 1
-subtitle: About Us
+subtitle: 
 category: jekyll post
 category-type: test
 img: wake-boarding.jpg
