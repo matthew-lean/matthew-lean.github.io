@@ -145,7 +145,7 @@
 .navbar-brand {
   transform: translateX(-50%);
   left: 50%;
-  position: absolute;
+  position: relative;
 }
 
 .navbar-brand {
@@ -174,7 +174,6 @@
 
 .navbar svg {
   height: 120px;
-  margin-top: 50px;
   transition: ease all .3s;
 }
 
@@ -345,6 +344,12 @@
 
 .show .navbar-nav ul li {
   width: 100%;
+}
+
+@media (max-width:990px){
+  .navbar svg {
+    width: 190px!important;
+}
 }
 
 @media (max-width:768px) {
