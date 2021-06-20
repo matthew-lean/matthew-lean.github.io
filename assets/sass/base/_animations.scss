@@ -1,0 +1,152 @@
+// Animations // ----------------------------------
+ 
+/* Nav Logo Animation */
+#wake-ski {
+  opacity: 0;
+  animation-name: fadeUp;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  transform: translate(0px, 30px);
+}
+#jurassic {
+  opacity: 0;
+  animation-name: fadeUp;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  transform: translate(0px, 30px);
+}
+
+/* logo animation */
+#_x31_1 {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x31_0 {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: .8s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x39_ {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: .9s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x38_ {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x37_ {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 1.1s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x36_ {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 1.2s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x35_ {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 1.3s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x34_ {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 1.4s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x33_ {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x32_ {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 1.6s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+#_x31_ {
+  opacity: 0;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 1.7s;
+  z-index: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0px) rotate(0deg);
+  }
+}
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0px);
+  }
+}

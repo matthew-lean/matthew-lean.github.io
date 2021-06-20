@@ -1,5 +1,4 @@
 // Header // ----------------------------------
-
 #hero-header {
   background-position: center;
   background-size: cover;
@@ -52,6 +51,13 @@
   overflow: hidden;
 }
 
+.splash-40 {
+  position: relative;
+  height: 40vh;
+  min-height: 480px;
+  overflow: hidden;
+}
+
 .splash-full {
   position: relative;
   height: 100vh;
@@ -93,8 +99,7 @@
   font-weight: 700;
   width: 100%;
 }
-
-.splash-headline-center {
+.splash-headline-center{
   max-width: 570px;
   position: inherit;
   margin: auto;
@@ -110,7 +115,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  opacity: .8;
+  opacity: .4;
 }
 
 .header-content-container .project-name {
@@ -130,11 +135,9 @@
   color: #fff;
   padding-top: 1em;
 }
-
-#hero-header h1,
-#hero-header h2,
-#hero-header h3 {
-  color: #fff;
+#hero-header h1, #hero-header h2, #hero-header h3{
+  color:#fff;
+  letter-spacing: 0.1rem;
 }
 
 .navbar {
@@ -142,44 +145,32 @@
   background-color: inherit;
 }
 
-.navbar-brand {
-  transform: translateX(-50%);
-  left: 50%;
-  position: relative;
-}
-
-.navbar-brand {
+.navbar-brand{
   color: #fff;
 }
-
-.navbar-brand:focus,
-.navbar-brand:hover {
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  flex-grow: 2;
+    text-align: center;
+}
+.navbar-brand:focus, .navbar-brand:hover {
   text-decoration: none;
   color: #fff;
 }
-
-.navbar .navbar-collapse {
-  margin-top: 30px;
+.solidnav .navbar-brand *{
+  fill:$grey;
+}
+.navbar-brand svg{
   transition: ease all .3s;
 }
-.solidnav .navbar-collapse {
-  margin-top: 0px;
-  transition: ease all .3s;
-}
-
-
-.solidnav .navbar-brand svg g {
-  fill: $grey;
-}
-
-.navbar svg {
-  height: 120px;
-  transition: ease all .3s;
-}
-
-.solidnav svg {
-  height: 60px;
-  margin-top: 0px;
+.solidnav .navbar-brand svg{
+  width: 200px!important;
   transition: ease all .3s;
 }
 
@@ -241,6 +232,13 @@
   height: 4vw !important;
 }
 
+.subpage-banner h1{
+  font-size:3rem!important;
+}
+.subpage-banner h2{
+  font-size:1.3rem!important;
+}
+
 /*Medium Screen */
 @media (max-width: 1021px) {
   .sub-nav {
@@ -268,15 +266,14 @@
   fill: #036aed;
 }
 
-.solidnav ul li a,
-.dropdown-item {
-  color: #212529 !important;
+.solidnav ul li a, .dropdown-item {
+  color: #212529!important;
 }
 
-.dropdown-menu {
-  border: unset !important;
-  box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075) !important;
-  margin: 0 !important;
+.dropdown-menu{
+  border: unset!important;
+  box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075)!important;
+  margin:0!important;
 }
 
 .solidnav ul li a:hover {
@@ -333,8 +330,8 @@
   background-color: #fff;
 }
 
-.show ul li a {
-  color: #212529
+.show ul li a{
+  color:#212529 
 }
 
 .show .navbar-nav ul {
@@ -344,12 +341,6 @@
 
 .show .navbar-nav ul li {
   width: 100%;
-}
-
-@media (max-width:990px){
-  .navbar svg {
-    width: 190px!important;
-}
 }
 
 @media (max-width:768px) {
@@ -371,12 +362,25 @@
     width: 100%;
     display: block;
     border: none;
-    border-radius: 0 0 .25rem .25rem !important;
+    border-radius: 0 0 .25rem .25rem!important;
+  }
+}
+@media (min-width:769px){
+  .dropdown-menu.show{
+    position: absolute;
   }
 }
 
-@media (min-width:769px) {
-  .dropdown-menu.show {
-    position: absolute;
+@media (max-width:990px){
+  .solidnav .navbar-brand svg {
+    width: 80%!important;
+    margin: 0 auto;
+  }
+  .navbar-brand {
+    order: -1;
+  }
+  .navbar-collapse {
+    display: grid;
+    justify-content: center;
   }
 }

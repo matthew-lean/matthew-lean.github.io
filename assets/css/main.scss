@@ -1,15 +1,16 @@
 ---
 regenerate: true
 ---
-
 @charset "utf-8";
 
 @import 'vendor/normalize';
 
 @import 'base/root';
-@import 'base/colours';
 @import 'base/font';
+@import 'base/animations';
 @import 'base/tilt';
 @import 'base/post';
 @import 'base/banner';
+@import 'base/footer';
 @import 'base/projects';
+@import 'base/bits';

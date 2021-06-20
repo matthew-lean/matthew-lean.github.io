@@ -1,0 +1,56 @@
+{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %}
+{% assign count = count | plus:1 %}
+
+<div class="splash-80 homepage-banner" id="hero-header">
+
+  <!-- <a href="{{ post.url }}"> -->
+
+  <div class="splash-video-wrapper">
+
+    <div style="background-image: linear-gradient(to bottom right, #{{post.color-1}}, #{{post.color-2}});"
+      class="project-image-gradient"></div>
+
+    <video class="splash-video" playsinline="" autoplay="" muted="" loop="" id="bgvid">
+      <source class="splash-video" src="{{site.baseurl}}/assets/video/{{page.video}}" type="video/mp4">
+    </video>
+
+  </div>
+
+  <div class="site-container container splash-overlay">
+    <div class="header-content-container">
+      <div class="splash-headline">
+
+        <div id="main-project">
+
+          <div class="main-project-name text-light text-center">
+            <h1 class="wow animate fadeInUp" data-wow-delay=".3s">Jurassic Wake & Ski</h1>
+            <div class="subtitle mt-2 text-light">
+              <h2 class="wow animate fadeInUp" data-wow-delay=".5s">Wakeboard the Jurrassic Coast</h2>
+            </div>
+            <a href="#book-a-lesson" data-toggle="modal" data-target="#booking"
+              class="btn btn-primary mt-3 wow animate fadeInLeft" data-wow-delay=".7s"><i
+                class="far fa-calendar-check mr-2" aria-hidden="true"></i> Book a Lesson</a>
+            <a href="#contact-us" class="btn btn-clear mt-3 ml-3 wow animate fadeInRight" data-wow-delay=".7s"
+              data-toggle="modal" data-target="#contactUsModal">Contact Us</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- </a> -->
+</div>
+{% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
+
+
+<style>
+  @media (max-width:425px) {
+    .homepage-banner h1 {
+      font-size: 1.75rem !important;
+    }
+    .homepage-banner h2 {
+      font-size: 1.35rem !important;
+    }
+  }
+</style>

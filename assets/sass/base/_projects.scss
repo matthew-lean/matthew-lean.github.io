@@ -1,6 +1,7 @@
 .project {
-    max-width: 340px!important;
     margin: 15px;
+    transition: ease opacity .3s;
+    overflow: hidden;
 }
 .project-image {
     height: 520px;
@@ -23,4 +24,33 @@
     width: 100%;
     padding: 1.25rem;
 
+  }
+  .project-wrapper-2{
+    top: 0;
+    right: 0;
+    text-align: right;
+  }
+
+  @media (max-width:990px){
+    .project-image {
+        height: 170px;
+    }
+  }
+
+  /* hover */
+  .project .project-image-gradient{
+    transition: ease opacity .3s;
+  }
+  .project:hover .project-image-gradient {
+    opacity: .0;
+    transition: ease opacity .3s;
+  }
+
+  .project .description {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+
+  .project:hover .description {
+    transform: translateY(40px);
+    opacity: 0;
   }

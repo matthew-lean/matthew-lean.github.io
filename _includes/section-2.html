@@ -1,16 +1,43 @@
-<div class="section-2 jumbotron jumbotron-fluid mb-0" style="background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0) )
-  , url({{site.baseurl}}/assets/images/home/wave-2.jpg); background-size: cover;position: relative;padding: 10rem 2rem;">
+<div class="section-2 quote-section jumbotron jumbotron-fluid bg-dark mb-0" style="background-image: url(assets/images/home/wave-2.jpg), linear-gradient(rgb(0 123 255),rgb(0 123 255));
+background-blend-mode: normal;background-size: cover;">
 	<div class="container">
-		<div class="row pt-5 pb-5 justify-content-md-center">
-			<div class="col-md-10 text-center content">
-				<h3 class="text-light">Join our Family Today</h3>
-				<p style="font-size: 1.25em;" class="text-light">Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Vitae dolore ducimus, culpa dignissimos atque <strong>qui explicabo</strong>
-					molestiae fugit.</p>
-					<a class="btn btn-primary mr-3" href="#"><i class="fab fa-facebook text-light mr-2"></i> Facebook</a>
-					<a class="btn btn-primary" href="#"><i class="fab fa-instagram text-light mr-2"></i> Instagram</a>
+		<div class="row justify-content-md-center pt-5 pb-5">
+			<div class="col-lg-8 content">
+				<p style="font-size: 1.5em;" class="text-light text-center mb-0 wow animate fadeInUp" data-wow-delay=".5s">Fantastic day on the water yesterday with this bunch... Wakeboarding and Wakesurfing along the picturesque jurassic coastline. Highly recommend!</p>
+				<p style="font-size: 1.2em;" class="text-light text-center mb-0 mt-3 wow animate fadeInUp" data-wow-delay=".7s">Matt East | Old Man</p>
 			</div>
 
 		</div>
 	</div>
 </div>
+
+<style>
+	.quote-section:before {
+		content: '';
+		width: 100%;
+		height: 2370px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background-image: linear-gradient(to left, rgb(0 123 255) 0, rgb(43 43 43 / 61%) 100%);
+	}
+	.quote-section{
+		overflow: hidden;
+		position: relative;
+	}
+	.quote-section .content{
+		position: relative;
+	}
+	.quote-section .content:after {
+        position: absolute;
+    top: 0rem;
+    left: 3rem;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f10d";
+    font-size: 5rem;
+    color: rgb(255 255 255 / 20%);
+    z-index: 1;
+    line-height: 0;
+}
+</style>

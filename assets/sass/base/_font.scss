@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 
-$font-primary: "Lexend Deca",
+// Fonts 
+$font-primary: "Heebo",
 -apple-system,
 Roboto,
 Helvetica,
@@ -13,6 +12,35 @@ sans-serif,
 $monospace: 'Ubuntu Mono',
 monospace,
 sans-serif;
+
+// Colours
+$white: #fff;
+$light-grey: #eceef1; // background grey
+$light-light-grey-blue: #f8faff;
+$light-grey-blue: #eef2f9;
+$dark-grey: #333333; // default font colour
+$primary: #2279dc;
+$primary-lighter: #90bdff;
+$primary-lighter-lighter: #deebfe;
+$primary-dark-shade: #005ec8;
+$primary-darker-shade: darken($primary-dark-shade, 10%); // Categories
+$green: #5cc112;
+$green-lighter: #d6efc4;
+$yellow: #FFCC00;
+$yellow-lighter: #f7ecbf;
+$yellow-darnker: #ffc800;
+$red: #ff5e5e;
+$red-lighter: #ffd7d7;
+$blue: #0f6aea;
+$blue-lighter: #4d95fb;
+$pink: #ff6cf3;
+$pink-lighter: #ffdafc;
+$grey: #333333;
+$grey-lighter: #cccccc;
+
+// Background
+$darker: #272a2d;
+.bg-darker{background-color:$darker;}
 
 // Font-sizes
 $font-size-large: 48px;
@@ -47,7 +75,7 @@ h1 {
 
 h2 {
     font-family: $font-primary;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     margin: 0 auto;
     color: #333333;
@@ -73,7 +101,6 @@ h4 {
 
 a {
     color: $blue;
-    text-decoration: none!important ;
 }
 
 p a:link,
@@ -87,10 +114,27 @@ p a:visited:hover {
     border-bottom: 2px solid #000;
     color: #000;
     transition: 0.3s ease;
+    text-decoration: none;
 }
 
 .btn {
     padding: .75rem 2rem!important;
+}
+
+.btn-clear {
+    color: #fff !important;
+    background-color: rgba(255,255,255,0.3) !important;
+}
+
+.link{
+    padding: .75rem 1rem;
+    border-radius: 8px;
+    transition: all .2s ease;
+}
+.link:hover {
+    background-color: #f5f5fa;
+    color: #2e3959;
+    text-decoration: none;
 }
 
 * {

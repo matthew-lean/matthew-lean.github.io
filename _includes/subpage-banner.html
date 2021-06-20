@@ -1,0 +1,31 @@
+<div class="splash-40 wow animate fadeIn subpage-banner" id="hero-header"
+  style="background-image: url({{site.baseurl}}/assets/images/banners/{{page.img}}); background-size: cover;position: relative;">
+
+  <div class="splash-video-wrapper">
+    {% if page.color-1 %}
+    <div
+      style="background-image: linear-gradient(to bottom right, #{{ page.color-1 | escape }}, #{{ page.color-2 | escape }});"
+      class="project-image-gradient"></div>
+    {% else %}
+    <div style="background-image: linear-gradient(270deg,#00d0ff,#036aed);" class="project-image-gradient"></div>
+    {% endif %}
+
+    {% if page.video %}
+    <video class="splash-video" playsinline="" autoplay="" muted="" loop=""
+      poster="{{site.baseurl}}/assets/images/banners/{{page.img}}" id="bgvid">
+      <source class="splash-video" src="{{site.baseurl}}/assets/video/{{page.video}}" type="video/mp4">
+    </video>
+    {% endif %}
+
+  </div>
+
+  <div class="splash-overlay container">
+    <div class="header-content-container">
+      <div class="splash-headline">
+        <h1 class="page-title text-white wow animate fadeInUp" data-wow-delay=".5s">{{ page.title }}</h1>
+        <h2 class="page-subtitle text-white wow animate fadeInUp" data-wow-delay=".7s">{{ page.subtitle }}</h2>
+        <!-- <p class="description text-white mt-2 ml-0 wow animate fadeInDown" data-wow-delay="1s">{{ page.description | escape }}</p> -->
+      </div>
+    </div>
+  </div>
+</div>
