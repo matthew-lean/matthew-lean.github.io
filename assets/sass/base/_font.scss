@@ -121,6 +121,12 @@ p a:visited:hover {
     padding: .75rem 2rem!important;
 }
 
+@media (max-width:425px){
+    .btn {
+        font-size: .9rem!important;
+    }
+}
+
 .btn-clear {
     color: #fff !important;
     background-color: rgba(255,255,255,0.3) !important;
